@@ -1,8 +1,10 @@
-//create function
-  //control and return statements
-
-//Prompt user for input and store variable
-
-//Call function
-
-//Alert user results
+function welcome(response){
+    if (response == 'Hello'){
+        return "Hello World"
+    }
+   else{
+       return "You did not say hello!"
+   }    
+}
+var val = prompt("Type 'Hello'")
+alert(welcome(val));
